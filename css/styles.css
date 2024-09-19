@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #ff6f61;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+nav ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+}
+
+#recipe-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#ingredients-column, #steps-column {
+    width: 45%;
+}
+
+#ingredients-column ul, #steps-column ol {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ingredients-column ul li, #steps-column ol li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Smooth transition for hover effects */
+a:hover, button:hover {
+    transition: 0.3s ease-in-out;
+}
+
+/* Media Queries for mobile adaptation */
+@media (max-width: 768px) {
+    #recipe-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #ingredients-column, #steps-column {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

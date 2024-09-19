@@ -1,0 +1,42 @@
+{
+    "recipes": [
+      {
+        "title": "Tiramisu",
+        "category": "Déssert",
+        "ingredients": [
+          "2 cups coffee",
+          "250g mascarpone",
+          "3 eggs",
+          "50g sugar",
+          "1 pack ladyfingers",
+          "Cocoa powder"
+        ],
+        "steps": [
+          "Dip ladyfingers in coffee and arrange in dish.",
+          "Whip mascarpone, sugar, and egg yolks.",
+          "Layer mascarpone mixture over ladyfingers.",
+          "Chill for at least 2 hours before serving.",
+          "Dust with cocoa powder before serving."
+        ]
+      },
+      {
+        "title": "Spaghetti Carbonara",
+        "category": "Italien",
+        "ingredients": [
+          "400g spaghetti",
+          "200g pancetta",
+          "2 large eggs",
+          "50g pecorino cheese",
+          "Salt and pepper"
+        ],
+        "steps": [
+          "Cook the spaghetti until al dente.",
+          "Fry the pancetta until crisp.",
+          "Beat the eggs and mix with cheese.",
+          "Toss the spaghetti with pancetta and egg mixture.",
+          "Season with salt and pepper."
+        ]
+      }
+    ]
+  }
+  
